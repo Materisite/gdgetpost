@@ -1,0 +1,36 @@
+img.label_thumb {
+  float:left;
+  margin-right:10px !important;
+  height:65px;
+  /* Thumbnail height */
+  width:65px;
+list-style: none;
+display: block;
+}
+.label_with_thumbs {
+  float: left;
+  width: 100%;
+  min-height: 70px;
+  margin: 0px 10px 2px 0px;
+  padding: 0;
+}
+ul.label_with_thumbs li {
+  padding:8px 0;
+  min-height:65px;
+  margin-bottom:0px;
+  border-bottom: 1px dotted #999999;
+list-style: none;
+display: block;
+}
+.label_with_thumbs li {
+  list-style: none;
+  padding-left:0px !important;
+list-style: none;
+display: block;
+}
+.label_with_thumbs a {
+  text-transform: uppercase;
+}
+.label_with_thumbs strong {
+  padding-left:0px;
+}
