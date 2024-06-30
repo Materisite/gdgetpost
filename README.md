@@ -1,0 +1,2 @@
+# gdgetpost
+Post for weblog
