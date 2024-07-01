@@ -15,6 +15,7 @@ display: block;
   padding: 0;
 }
 ul.label_with_thumbs li {
+  font-size: 14px;
   padding:8px 0;
   min-height:65px;
   margin-bottom:0px;
@@ -29,7 +30,7 @@ list-style: none;
 display: block;
 }
 .label_with_thumbs a {
-  text-transform: uppercase;
+  color:#08102b !important;
 }
 .label_with_thumbs strong {
   padding-left:0px;
