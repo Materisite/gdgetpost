@@ -1,0 +1,88 @@
+.postblock {
+	list-style: none;margin:auto;
+    padding: 0;width: 100%;
+}
+.postblock ul li {margin:5px;padding:5px;}
+
+/* ================== Block 1 ================== */
+/* --- base--- */	
+.block-1 .postblock {display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+/* --- item--- */
+.block-1 .block-item:first-child {width: 100%;}
+.block-1 .block-item {height: 100%;margin: 0 0 10px 0;width: 31.33%;text-align:center;}
+/* --- thumb--- */
+.block-1 .block-thumbnail {margin-bottom:10px;width: 100%;}
+.block-1 .block-item:first-child .block-thumbnail:first-child {height: auto!important;margin-bottom:10px;width: 100%;}
+.block-1 .block-thumbnail {height: 100px;margin-bottom:10px;width: 100%;}
+/* --- title--- */
+.block-1 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-1 .block-item a:hover {text-decoration:underline;}
+.block-1 p {margin: 5px 0;}
+
+
+/* ================== Block 2 ================== */
+/* --- base--- */
+.block-2 .postblock {display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+/* --- item--- */
+.block-2 .block-item:first-child {width: 48%;margin:5px;}
+.block-2 .block-item:nth-of-type(2) {width: 48%;margin:5px;}
+.block-2 .block-item {height: 100%;margin: 0 0 10px 0;width: 31.33%;text-align:center;}
+/* --- thumb--- */
+.block-2 .block-thumbnail {margin-bottom:10px;width: 100%;}
+.block-2 .block-item:first-child .block-thumbnail:first-child {width: 100%;height: auto!important;margin-bottom:10px;}
+.block-2 .block-item:nth-of-type(2) .block-thumbnail:first-child {width: 100%;height: auto!important;margin-bottom:10px;}
+.block-2 .block-thumbnail {height: 100px;margin-bottom:10px;width: 100%;}
+/* --- title--- */
+.block-2 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-2 .block-item a:hover {text-decoration:underline;}
+.block-2 p {margin: 5px 0;}
+
+/* ================== Block 3 ================== */
+/* --- base--- */
+.block-3 .postblock {display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+/* --- item--- */
+.block-3 .block-item {height: auto;margin: 0 0 10px 0;width: 48%;text-align:center;}
+/* --- thumb--- */
+.block-3 .block-thumbnail {margin-bottom:10px;width: 100%;}
+.block-3 .block-thumbnail {height: auto;margin-bottom:10px;width: 100%;}
+/* --- title--- */
+.block-3 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-3 .block-item a:hover {text-decoration:underline;}
+.block-3 p {margin: 5px 0;}
+
+/* ================== Block 4 ================== */
+/* --- base--- */
+.block-4 .postblock {float: left;min-height: 70px;}
+/* --- item--- */
+.block-4 .block-item {float: left; width: 100%; min-height: 70px; margin-bottom: 20px; padding: 0;border-bottom: 1px solid #458eff;
+}
+.block-4 .block-item img  {float:left;margin-right:10px;width:75px;height:75px;border-radius:8px;
+}
+.block-4 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-4 .block-item a:hover {text-decoration:underline;}
+.block-4 p {margin: 5px 0;}
+
+/* ================== Block 5 ================== */
+/* --- base--- */
+.block-5 .postblock {float: left;min-height: 70px;}
+/* --- item--- */
+.block-5 .block-item {float: left; width: 100%; min-height: 70px; margin-bottom: 20px; padding: 0;border-bottom: 1px solid #458eff;
+}
+.block-5 .block-item img  {float:right;margin-left:10px;width:75px;height:75px;border-radius:8px;
+}
+.block-5 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-5 .block-item a:hover {text-decoration:underline;}
+.block-5 p {margin: 5px 0;font-size:13px;line-height: 1.1em;}
+
+/* ================== Block 6 ================== */
+/* --- base--- */
+.block-6 .postblock {float: left;}
+/* --- item--- */
+.block-6 .block-item {float: left; width: 100%; margin-bottom: 5px; padding: 0;border-bottom: 1px solid #458eff;
+}
+.block-6 .block-item .block-item-title {font-size: 14px;color:var(--headC);line-height: 1.5em;}
+.block-6 .block-item a:hover {text-decoration:underline;}
+.block-6 p {margin: 5px 0;font-size:13px;line-height: 1.1em;}
